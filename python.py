@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv("sales_data.csv")
+df = pd.read_csv("Sales.csv")
 print(df.head())
 
 print("Rows and columns:", df.shape)
